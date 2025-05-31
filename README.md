@@ -22,12 +22,6 @@ Includes a map placeholder for location visualization.
 ### Frontend: HTML5, CSS3
 ### Tools: Git, Visual Studio Code
 
-## Key Highlights
-**Clean Code Structure:** Well-organized HTML for semantic structure and maintainability.
-**Custom Styling:** Creative use of CSS to create visually appealing layouts, including hover effects and consistent design themes.
-**User-Centric Design:** Focused on intuitive navigation and clear presentation of restaurant information.
-**Learning Opportunity:** This project helped me master HTML and CSS fundamentals, and I’m actively working on adding responsive design to enhance accessibility across devices.
-
 ## Future Enhancements
 Implement responsive design using CSS media queries to support mobile and tablet devices.
 Add JavaScript for dynamic features like form validation and interactive elements.
