@@ -8,12 +8,33 @@ The White Chillies is a restaurant website built to provide an engaging user exp
 Displays an "About Us" section detailing the restaurant’s story, ambiance, and mission.
 Showcases select menu items with appealing visuals.
 Includes options for table reservations (e.g., standard, premium, outdoor) and hall/catering bookings.
-Menu Page:
+### Menu Page:
 Presents a detailed menu with categories (e.g., appetizers, main course, desserts) and item descriptions.
 Organized layout for easy navigation.
-Place Order Page:
+### Place Order Page:
 Allows customers to place orders through a structured form.
 Provides a simple interface for order customization and submission.
-Contact Page:
+### Contact Page:
 Features a contact form for inquiries, along with restaurant details (address, phone, email).
 Includes a map placeholder for location visualization.
+
+## Technologies Used
+### Frontend: HTML5, CSS3
+### Tools: Git, Visual Studio Code
+
+## Key Highlights
+**Clean Code Structure:** Well-organized HTML for semantic structure and maintainability.
+**Custom Styling:** Creative use of CSS to create visually appealing layouts, including hover effects and consistent design themes.
+**User-Centric Design:** Focused on intuitive navigation and clear presentation of restaurant information.
+**Learning Opportunity:** This project helped me master HTML and CSS fundamentals, and I’m actively working on adding responsive design to enhance accessibility across devices.
+
+## Future Enhancements
+Implement responsive design using CSS media queries to support mobile and tablet devices.
+Add JavaScript for dynamic features like form validation and interactive elements.
+Integrate a backend for processing orders and storing reservations.
+Enhance accessibility with ARIA landmarks and keyboard navigation.
+
+## Contact
+I’m passionate about web development and eager to expand my skills in creating modern, responsive applications. I’d love to bring my enthusiasm and foundational expertise to your team!
+
+**Thank you for exploring The White Chillies! I’m excited to discuss how my HTML and CSS skills can contribute to your organization.**
