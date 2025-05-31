@@ -23,10 +23,10 @@ Includes a map placeholder for location visualization.
 ### Tools: Git, Visual Studio Code
 
 ## Future Enhancements
-Implement responsive design using CSS media queries to support mobile and tablet devices.
-Add JavaScript for dynamic features like form validation and interactive elements.
-Integrate a backend for processing orders and storing reservations.
-Enhance accessibility with ARIA landmarks and keyboard navigation.
+* Implement responsive design using CSS media queries to support mobile and tablet devices.
+* Add JavaScript for dynamic features like form validation and interactive elements.
+* Integrate a backend for processing orders and storing reservations.
+* Enhance accessibility with ARIA landmarks and keyboard navigation.
 
 ## Contact
 I’m passionate about web development and eager to expand my skills in creating modern, responsive applications. I’d love to bring my enthusiasm and foundational expertise to your team!
