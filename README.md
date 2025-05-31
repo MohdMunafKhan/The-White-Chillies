@@ -19,8 +19,8 @@ Features a contact form for inquiries, along with restaurant details (address, p
 Includes a map placeholder for location visualization.
 
 ## Technologies Used
-### Frontend: HTML5, CSS3
-### Tools: Git, Visual Studio Code
+* **Frontend:** HTML5, CSS3
+* **Tools:** Git, Visual Studio Code
 
 ## Future Enhancements
 * Implement responsive design using CSS media queries to support mobile and tablet devices.
@@ -31,4 +31,4 @@ Includes a map placeholder for location visualization.
 ## Contact
 I’m passionate about web development and eager to expand my skills in creating modern, responsive applications. I’d love to bring my enthusiasm and foundational expertise to your team!
 
-**Thank you for exploring The White Chillies! I’m excited to discuss how my HTML and CSS skills can contribute to your organization.**
+**Thank you for exploring The White Chillies! I’m excited to discuss how my skills can contribute to your organization.**
