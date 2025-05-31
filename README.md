@@ -5,18 +5,18 @@ The White Chillies is a restaurant website built to provide an engaging user exp
 
 ## Features
 ### Home Page:
-Displays an "About Us" section detailing the restaurant’s story, ambiance, and mission.
-Showcases select menu items with appealing visuals.
-Includes options for table reservations (e.g., standard, premium, outdoor) and hall/catering bookings.
+* Displays an "About Us" section detailing the restaurant’s story, ambiance, and mission.
+* Showcases select menu items with appealing visuals.
+* Includes options for table reservations (e.g., standard, premium, outdoor) and hall/catering bookings.
 ### Menu Page:
-Presents a detailed menu with categories (e.g., appetizers, main course, desserts) and item descriptions.
-Organized layout for easy navigation.
+* Presents a detailed menu with categories (e.g., appetizers, main course, desserts) and item descriptions.
+* Organized layout for easy navigation.
 ### Place Order Page:
-Allows customers to place orders through a structured form.
-Provides a simple interface for order customization and submission.
+* Allows customers to place orders through a structured form.
+* Provides a simple interface for order customization and submission.
 ### Contact Page:
-Features a contact form for inquiries, along with restaurant details (address, phone, email).
-Includes a map placeholder for location visualization.
+* Features a contact form for inquiries, along with restaurant details (address, phone, email).
+* Includes a map placeholder for location visualization.
 
 ## Technologies Used
 * **Frontend:** HTML5, CSS3
