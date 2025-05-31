@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Place Order</title>
+      <link rel="stylesheet" href="css/order-style.css">
+</head>
+
+<body>
+
+      <div class="head">
+            <p>Spice Up Your Day – Order Now at The White Chillies!</p>
+      </div>
+
+      <div class="container">
+            <div class="left-container">
+                  <div class="image">
+                        <img src="images/main-logo-2.jpg" alt="">
+                  </div>
+            </div>
+
+            <div class="right-container">
+                  <h2>Place Your Order</h2>
+
+                  <form action="#">
+                        <input type="text" placeholder="Food/Dish Name" required>
+
+                        <input list="bread" placeholder="Choose Bread Type">
+                        <datalist id="bread">
+                              <option value="Plain Roti">Plain Roti</option>
+                              <option value="Butter Naan">Butter Naan</option>
+                              <option value="Chapaati">Chapaati</option>
+                              <option value="Tandoori Roti">Tandoori Roti</option>
+                              <option value="Khamira Roti">Khamira Roti</option>
+                        </datalist>
+
+                        <select>
+                              <option value="Quarter">Quarter</option>
+                              <option value="Half">Half</option>
+                              <option value="Full" selected>Full</option>
+                        </select>
+
+                        <input type="text" placeholder="Your Name">
+
+                        <input type="tel" placeholder="Phone Number">
+
+                        <input type="email" placeholder="Email">
+
+                        <textarea placeholder="Enter your Full Address"></textarea>
+                  </form>
+                  <div class="btns">
+                        <button class="explore-btn"><a href="menu.html">Menu</a></button>
+
+                        <button class="submit-btn" type="button"
+                              onclick="alert('Your Order has been placed. Thank You!!!')">Submit</button>
+                  </div>
+            </div>
+      </div>
+</body>
+
+</html>

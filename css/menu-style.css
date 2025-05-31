@@ -1,0 +1,198 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body{
+      background-color: #8b4513;
+}
+
+.main-container{
+      border: 1px solid #daa520;
+      margin: 25px;
+      padding: 15px;
+}
+
+.main-container .sub-container{
+      border: 4px solid #daa520;
+      padding: 15px 20px 15px 20px;
+}
+
+.main-container .sub-container .header{
+      text-align: center;
+      padding: 15px 0;
+      font-size: 22px;
+      font-family: cursive;
+      font-weight: bold;
+      color: white;
+}
+
+.main-container .sub-container .header-content{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 50px;
+      margin-bottom: 20px;
+}
+
+.main-container .sub-container .header-content .section{
+      font-size: 20px;
+      width: 300px;
+      text-align: center;
+      color: white;
+}
+
+
+.main-container .sub-container .header-content .menu{
+      font-size: 60px;
+      width: 500px;
+      text-align: center;
+      border-left: 1px solid #daa520;
+      border-right: 1px solid #daa520;
+      color: white;
+}
+
+.main-container .sub-container .break{
+      border: 1px solid #daa520;
+      margin-bottom: 20px;
+}
+
+.main-container .sub-container .main-images{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-bottom: 20px;
+      
+}
+
+.main-container .sub-container .main-images img{
+      width: 280px;
+      height: 260px;
+}
+
+.main-container .sub-container .main-menu{
+      padding: 0 20px 15px 20px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      border-bottom: 2px solid #daa520;
+      margin-bottom: 20px;
+}
+
+.main-container .sub-container .main-menu .dishes{
+      padding: 0 8px;
+      width: 355px;
+      
+}
+
+.main-container .sub-container .main-menu .dishes h3{
+      font-size: 22px;
+      color: white;
+      border-bottom: 2px solid #daa520;
+      line-height: 1.8;
+      text-align: center;
+}
+
+.main-container .sub-container .main-menu .dishes table{
+      color: whitesmoke;
+      width: 100%;
+      
+}
+
+.main-container .sub-container .main-menu .dishes td{
+      padding: 10px 25px 10px 0;
+      font-size: 18px;
+}
+
+.main-container .sub-container .sweet-menu{
+      padding: 0 20px 15px 20px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      border-bottom: 2px solid #daa520;
+      margin-bottom: 20px;
+}
+
+.main-container .sub-container .sweet-menu .sweets{
+      padding: 0 8px;
+      width: 300px;
+}
+
+.main-container .sub-container .sweet-menu .sweets h3{
+      font-size: 22px;
+      color: white;
+      border-bottom: 2px solid #daa520;
+      line-height: 1.8;
+      text-align: center;
+}
+
+.main-container .sub-container .sweet-menu .sweets table{
+      color: whitesmoke;
+      width: 100%;
+}
+
+.main-container .sub-container .sweet-menu .sweets td{
+      padding: 10px 25px 10px 0;
+      font-size: 18px;
+}
+
+.main-container .sub-container .sweet-menu .sweet-img img{
+      width: 280px;
+      height: 280px;
+}
+
+.main-container .sub-container .drinks-menu{
+      padding: 0 20px 15px 20px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 2px solid #daa520;
+      margin-bottom: 20px;
+}
+
+.main-container .sub-container .drinks-menu .drinks{
+      padding: 0 8px;
+      width: 400px;
+}
+
+.main-container .sub-container .drinks-menu .drinks h3{
+      font-size: 22px;
+      color: white;
+      border-bottom: 2px solid #daa520;
+      line-height: 1.8;
+      text-align: center;
+}
+
+.main-container .sub-container .drinks-menu .drinks table{
+      color: whitesmoke;
+      width: 100%;
+}
+
+.main-container .sub-container .drinks-menu .drinks td{
+      padding: 10px 25px 10px 0;
+      font-size: 18px;
+}
+
+.main-container .sub-container .drinks-menu .drink-img img{
+      width: 500px;
+      height: 325px;
+}
+
+.main-container .sub-container .last-info{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px 15px 20px;
+}
+
+.main-container .sub-container .last-info .address{
+      font-size: 18px;
+      color: whitesmoke;
+}
+
+.main-container .sub-container .last-info .site{
+      font-size: 18px;
+      color: whitesmoke;
+}

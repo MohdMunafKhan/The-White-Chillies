@@ -1,0 +1,467 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.head{
+      background-color: rgba(196, 170, 88, 0.5);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      scroll-behavior: smooth;
+}
+
+.head .name-logo{
+      padding: 15px;
+      width: 400px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 35px;
+      height: 70px;
+}
+
+.head .name-logo p{
+      font-family: cursive;
+      font-size: 30px;
+      font-weight: bold;
+      color: orangered;
+      text-shadow: 3px 3px 5px green;
+} 
+
+.head .links{
+      margin-right: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      width: 550px;
+      justify-content: space-between;
+}
+
+.head .links a{
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      
+}
+
+.head .name-logo:hover{
+      border: 2px solid white;
+}
+
+.head .links a:hover{
+      color: whitesmoke;
+
+}
+
+.home{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.text-container{
+      background-color: #fff;
+      padding: 20px 20px;
+      width: 690px;
+      margin: 0 0 0 50px;
+}
+
+.text-container h1{
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #000;
+      margin: 0;
+      line-height: 1.2;
+      padding-bottom: 15px;
+}
+
+.text-container span{
+      font-size: 1em;
+      font-weight: bold;
+      color: orangered;
+      margin: 5px 0;
+      line-height: 1.2;
+}
+
+.text-container .description{
+      font-size: 1.5em;
+      color: #5e5e5e;
+      margin: 5px 0;
+      line-height: 1;
+}
+
+.text-container .order-button{
+      margin: 20px 0 0 0;
+      width: 120px;
+      height: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      background-color: #d4a017;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid white;
+      box-shadow: 3px 3px 7px black;
+}
+
+.text-container .order-button a{
+      text-decoration: none;
+      color: white;
+}
+
+.text-container:hover{
+      text-shadow: 3px 3px 5px orange;
+}
+
+.img-logo{
+      margin: 20px 100px 0 0;
+      
+}
+
+.img-logo img{
+      width: 460px;
+      height: 460px;
+      box-shadow: 7px 7px 10px black;
+}
+
+.about{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.about .about-content{
+      width: 600px;
+      margin-right: 100px;
+      margin-left: 70px;
+}
+
+.about .about-content h2{
+      font-size: 40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-bottom: 15px;
+      color: orangered;
+      text-align: center;
+      font-weight: bold;
+}
+
+.about .about-content p{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      text-align: justify;
+}
+
+
+.about .img-restro{
+      margin-left: 50px;
+}
+
+.about .img-restro img{
+      width: 500px;
+      height: 475px;
+      border-radius: 15px;
+}
+
+.about .img-restro img:hover{
+      box-shadow: 8px 8px 10px chocolate;
+}
+
+.about .about-content .contact-button{
+      margin: 20px 0 0 0;
+      width: 120px;
+      height: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      background-color: #d4a017;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid white;
+      box-shadow: 3px 3px 7px black;
+}
+
+.about .about-content .contact-button a{
+      text-decoration: none;
+      color: white;
+}
+
+.menu{
+      margin: 0 75px 0 40px;
+      margin-bottom: 100px;
+}
+
+.menu .menu-heading{
+      text-align: center;
+      margin: 0 0 15px 0;
+}
+
+.menu .menu-heading h2{
+      font-size: 40px;
+      color: orangered;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      padding-bottom: 15px;
+}
+
+.menu .menu-heading p{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      color: red;
+}
+
+.menu .menu-heading span{
+      color: orangered;
+      font-weight: bold;
+}
+
+.menu .menu-items{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+}
+
+.menu .menu-items .item1{
+      margin: 25px;
+      width: 360px;
+      padding: 15px;
+      border-radius: 20px;
+      box-shadow: 6px 6px 10px black;
+}
+
+.menu .menu-items .item1 .food1 img{
+      width: 330px;
+      height: 300px;
+      margin-bottom: 30px;
+      border-radius: 20px;
+}
+
+.menu .menu-items .item1 .food1-info h4{
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #d4a017;
+}
+
+.menu .btn1-class{
+      text-align: center;
+}
+
+.menu .explore-btn{
+      margin: 20px 0 0 0;
+      width: 120px;
+      height: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      background-color: #d4a017;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid white;
+      box-shadow: 3px 3px 7px black;
+}
+
+.menu .explore-btn a{
+      text-decoration: none;
+      color: white;
+}
+.menu .menu-items .item1:hover{
+      box-shadow: 5px 5px 10px orangered;
+}
+
+.reservation{
+      margin: 0 75px 0 40px;
+      margin-bottom: 100px;
+}
+
+.reservation .reserve-heading{
+      text-align: center;
+      margin: 0 0 15px 0;
+}
+
+.reservation .reserve-heading h2{
+      font-size: 40px;
+      color: orangered;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      padding-bottom: 15px;
+}
+
+.reservation .tables{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+}
+
+.reservation .tables .table-type{
+      margin: 25px;
+      width: 360px;
+      padding: 15px;
+      border-radius: 20px;
+      box-shadow: 6px 6px 10px black;
+}
+
+.reservation .tables .table-type .table-img img{
+      width: 330px;
+      height: 300px;
+      margin-bottom: 30px;
+      border-radius: 20px;
+}
+
+.reservation .tables .table-type .table-info h4{
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #d4a017;
+}
+
+
+.reservation .tables .booking-btn{
+      margin: 20px 0 0 0;
+      width: 90px;
+      height: 40px;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #d4a017;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid white;
+      box-shadow: 3px 3px 7px black;
+}
+
+.reservation .tables .table-type:hover{
+      box-shadow: 5px 5px 10px orangered;
+}
+
+.hall-reserve{
+      margin: 0 75px 0 40px;
+      margin-bottom: 30px;
+}
+
+.hall-reserve .hall-reserve-heading{
+      text-align: center;
+      margin: 0 0 15px 0;
+}
+
+.hall-reserve ,.hall-reserve-heading h3{
+      font-size: 40px;
+      color: orangered;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      padding-bottom: 15px;
+}
+
+.hall-reserve ,.hall-reserve-heading h4{
+      font-size: 30px;
+      color: orangered;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      padding-bottom: 15px;
+}
+
+.hall-reserve ,.hall-reserve-heading span{
+      color: goldenrod;
+}
+
+.hall-reserve .hall-catering{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+}
+
+.hall-reserve .hall-catering .hall{
+      margin: 25px;
+      width: 500px;
+      padding: 15px;
+      border-radius: 20px;
+      box-shadow: 6px 6px 10px black;
+}
+
+.hall-reserve .hall-catering .hall .hall-img img{
+      width: 470px;
+      height: 400px;
+      margin-bottom: 30px;
+      border-radius: 20px;
+}
+
+.hall-reserve .hall-catering .hall .hall-info p{
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: red
+}
+
+.hall-reserve .hall-catering .hall .hall-btn{
+      text-align: center;
+}
+
+.hall-reserve .hall-catering .hall .hall-btn .hall-button{
+      margin: 20px 0 0 0;
+      width: 130px;
+      height: 40px;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #d4a017;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid white;
+      box-shadow: 3px 3px 7px black;
+}
+
+.hall-reserve .hall-catering .hall:hover{
+      box-shadow: 5px 5px 10px orangered;
+}
+
+.last-info{
+      padding: 25px 40px 25px 40px;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #ddd;
+}
+
+.last-info .quick-links h3{
+      font-size: 20px;
+      margin: 0 0 10px 0;
+}
+
+.last-info .quick-links .link-list a{
+      padding: 0 0 10px 15px;
+      display: block;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+}
+
+.last-info .quick-links .link-list a:hover{
+      color: white;
+}
+
+.last-info .phone p{
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 0 15px 0;
+}
+
+.last-info .phone span{
+      font-weight: lighter;
+}
+
+.last-info .address p{
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 0 15px 0;
+}
+
+.last-info .address span{
+      font-weight: lighter;
+}
+
+.footer{
+      background-color: #5e5e5e;
+      padding: 40px;
+      text-align: center;
+      font-size: 20px;
+      color: whitesmoke;
+}

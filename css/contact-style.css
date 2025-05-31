@@ -1,0 +1,97 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.container{
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 75px;
+}
+
+.container .img-sec{
+      width: 50%;
+}
+
+.container .img-sec img{
+      width: 600px;
+      height: 450px;
+}
+
+.container .text-sec{
+      width: 45%;
+}
+
+.container .text-sec .mail{
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 1.5;
+}
+
+.container .text-sec .mail p{
+      font-size: 25px;
+      color: red;
+      font-weight: bold;
+}
+
+.container .text-sec .mail a{
+      font-size: 22px;
+      text-decoration: none;
+      
+}
+
+.container .text-sec .phone{
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 1.5;
+}
+
+.container .text-sec .phone p:first-child{
+      color: red;
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.container .text-sec .phone p:last-child{
+      font-size: 22px;
+      font-weight: bold;
+}
+
+.container .text-sec .social{
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 1.5;
+}
+
+.container .text-sec .social p:first-child{
+      color: red;
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.container .text-sec .social p{
+      font-size: 22px;
+}
+
+.container .text-sec .social span{
+      color: red;
+      font-weight: bold;
+}
+
+.container .text-sec .address{
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 1.5;
+}
+
+.container .text-sec .address p:first-child{
+      color: red;
+      font-size: 25px;
+      font-weight: bold;
+}
+
+.container .text-sec .address p{
+      font-size: 22px;
+}
